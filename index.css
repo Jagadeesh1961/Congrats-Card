@@ -1,0 +1,96 @@
+* {
+  box-sizing: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.congrats-card-bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  margin-top: 20px;
+  background-color: #cffafe;
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 550px;
+  }
+}
+
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.avatar {
+  width: 96px;
+}
+
+@media screen and (min-width: 768px) {
+  .avatar {
+    width: 120px;
+  }
+}
+
+.watch-logo {
+  width: 96px;
+}
+
+@media screen and (min-width: 768px) {
+  .watch-logo {
+    width: 120px;
+  }
+}
+
+.card-name {
+  color: #0f172a;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .card-name {
+    font-size: 28px;
+  }
+}
+
+.card-description {
+  text-align: center;
+  color: #1e293b;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-description {
+    font-size: 16px;
+  }
+}
